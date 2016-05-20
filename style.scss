@@ -1,1 +1,12 @@
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+div.custom {
+    @include make-row();
+    div.five {
+        @include make-lg-column( 2.4 );
+        div{
+            background: #ccc;
+            text-align: center;
+        }
+        margin-bottom: 10px;
+    }
+}
