@@ -1,0 +1,20 @@
+{
+  "name": "bootstrap-test",
+  "description": "Bootstrap Test",
+  "main": "index.js",
+  "authors": [
+    "Huy Pham"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.6"
+  }
+}
